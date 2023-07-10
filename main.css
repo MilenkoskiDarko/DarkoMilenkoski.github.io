@@ -1,0 +1,394 @@
+body{
+    background: #00C4FF;
+    font-family: Serif sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poor Richard",sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+header .name{
+    position: relative;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: 0.6s;
+}
+header ul li:hover{
+
+}
+header.sticky{
+    padding: 25px 100px;
+    background: #EFFFFB;
+}
+header.sticky a{
+    color: #272727;
+}
+header.bio{
+    padding: 25px 100px;
+    background: #00C4FF;
+}
+header.bio a {
+color: #EFFFFB;
+}
+header.skills{
+    padding: 25px 100px;
+    background: #EFFFFB;
+}
+header.skills a{
+    color: #272727;
+}
+header.contact{
+    padding: 25px 100px;
+    background: #00C4FF;
+}
+header.contact a {
+    color: #EFFFFB;
+}
+
+
+
+
+
+/*.Namelogo{
+    width: 50%;
+    !*height: 100px;*!
+    height: 10%;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    position: fixed;
+}
+.Namelogo h1{
+    color: black;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.navbar{
+    width: 50%;
+    !*height: 100px;*!
+    height: 10%;
+   !* float: right;*!
+    position: fixed;
+    right: 0;
+    border-bottom: 1px solid white;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}*/
+/*#main{
+    !*height: 900px;*!
+    height: 100vh;
+    background: #00C4FF;
+}*/
+
+    /* Animated scrolling */
+html{
+    scroll-behavior: smooth;
+}
+
+#main .text{
+    width: 50%;
+    height: 900px;
+    display: inline-block;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+#main .text > h2{
+    display: block;
+    color: #F1F1F1;
+    padding: 400px 100px 400px 100px;
+    text-align: center;
+}
+#main .pic{
+    width: 50%;
+    height: 600px;
+    float: right;
+    justify-content: center;
+}
+#home > div.pic > img{
+    border-radius: 1000px;
+    position: absolute;
+    top: 220px;
+    left: 1050px;
+}
+
+/* ABOUT US */
+
+#main > #bio{
+    height: 100vh;
+    background-color: white;
+}
+#main > #bio > h2{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#main > #bio > .boxes{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 3%;
+    height: 75%;
+}
+#main > #bio > .boxes > div{
+    width: 30%;
+    background-color: orange;
+    border-radius: 100px;
+}
+ .bioText{
+     font-size: 20px;
+     letter-spacing: 1px;
+     text-align: justify;
+     text-justify: distribute-all-lines;
+     line-height: 1.5;
+     position: relative;
+     top: 80px;
+     text-indent: 2em;
+ }
+.boxes h3{
+    padding-top: 20px;
+}
+ .box1,.box2,.box3{
+     padding-left: 100px;
+     padding-right: 100px;
+ }
+#main > #skills{
+    height: 100vh;
+    width: 100%;
+}
+#main > #skills > .imagesSkills{
+    /*display: inline-block;*/
+    display: inline;
+}
+#main > #skills > .imagesSkills > .htmlcss{
+    width: 50%;
+    height: 30%;
+
+}
+#main > #skills > .imagesSkills >.htmlcss img{
+    width: 650px;
+    position: relative;
+    top: 250px;
+    left: 200px;
+}
+#main > #skills > .imagesSkills >  .c{
+    width: 50%;
+    height: 30%;
+}
+#main > #skills > .imagesSkills > .c img{
+    width: 300px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    padding: 25px;
+}
+#main > #skills > .textSkills{
+    width: 50%;
+    float: right;
+    /*background-color: red;*/
+    padding-top: 140px;
+    font-size: 30px;
+    position: relative;
+    top: -560px;
+}
+#main > #skills > .textSkills > h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+/*#main > #skills > .textSkills  span{
+
+}*/
+#main > #skills > .textSkills > .skilldivs{
+    height: 20px;
+    width: 800px;
+    background-color: orange;
+    margin: 25px;
+}
+#main > #skills > .textSkills > .htmlSkill{
+    width: 800px;
+}
+#skills > div.textSkills > p:nth-child(2) > span{
+    position: relative;
+    left: 650px;
+}
+#main > #skills > .textSkills > .cssSkill{
+    width: 640px;
+}
+#skills > div.textSkills > p:nth-child(5) > span{
+    position: relative;
+    left: 530px;
+}
+#main > #skills > .textSkills > .jsSkill{
+    width: 320px;
+}
+#skills > div.textSkills > p:nth-child(8) > span{
+    position: relative;
+    left: 150px;
+}
+
+#main > #skills > .textSkills > .c\+\+Skill{
+    width: 800px;
+}
+#skills > div.textSkills > p:nth-child(11) > span{
+    position: relative;
+    left: 650px;
+}
+#main > #skills > .textSkills > .cSkill{
+    width: 720px;
+}
+#skills > div.textSkills > p:nth-child(14) > span{
+    position: relative;
+    left: 650px;
+}
+
+/* CONTACT */
+
+#main > #contact{
+    height: 100vh;
+    background: white;
+}
+#main > #contact > .top{
+    /*background-color: yellow;*/
+    width: 100%;
+    height: 150px;
+    text-align: right;
+    padding-top: 110px;
+    font-size: 30px;
+}
+#main > #contact > .split{
+    width: 100%;
+    /*height: 75%;*/
+    position: relative;
+    top: -300px;
+    display: flex;
+}
+#main > #contact > .split > .leftside{
+    background-color: orange;
+    width: 40%;
+    display: inline-block;
+    margin: 25px;
+}
+#main > #contact > .split > .leftside h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#main > #contact > .split > .leftside > .textContact{
+    padding: 10px 100px 10px 100px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: "Arial Black",sans-serif;
+    border-top: 1px solid white;
+}
+#contact > div.split > div.leftside > div.textContact > div > a > img{
+    width: 40px;
+}
+.socialImg{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    border-top: 1px solid white;
+}
+
+#main > #contact > .split > .rightside{
+    background-color: orange;
+    width: 60%;
+    float: right;
+    margin: 25px;
+    text-align: center;
+    padding-left: 80px;
+}
+#main > #contact > .split > .rightside h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#main > #contact > .split > .rightside label{
+    font-size: 15px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: "Arial Black",sans-serif;
+}
+#contact > div.split > div.rightside > form > input:not([type=submit]){
+    height: 30px;
+}
+#contact > div.split > div.rightside > form > input[type=submit]:nth-child(17){
+    width: 100px;
+    height: 35px;
+    border-radius: 100px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+#name,#surname,#email{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.btn:hover{
+    color: orange;
+    border: 2px solid orange;
+}
+#message{
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+#footer{
+    height: 100px;
+   /* background-color: orange;*/
+}
